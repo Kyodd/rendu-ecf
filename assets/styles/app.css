@@ -1,0 +1,81 @@
+body {
+  background-color: skyblue;
+}
+
+.plan{
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+label{
+  backdrop-filter: blur(100px);
+}
+
+.custom-bold {
+  font-weight: bold !important;
+}
+
+.navbar{
+  background-color: rgba(17, 25, 40, 0.8);
+  color: white;
+}
+
+.subDuration{
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(17, 25, 40, 0.25);
+    padding: 10px;
+}
+
+.tarif {
+  box-shadow: 0px 0px 10px 0px;
+  transition: transform 0.5s ease-in-out;
+  background: rgb(18, 18, 38);
+}
+
+.comment-box {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.rating-box {
+  width: 20%;
+  height: 30px;
+}
+
+.tarif:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.sub:hover {
+  background-color: #24daff;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.plan:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.subBtn:hover{
+  background-color: rgba(17, 25, 40, 0.25);
+  transition: 0.5s ease-in-out; 
+}
+
+#calendar{
+    width: 70%;
+    margin: auto;
+}
+.fc-non-business { 
+    background-color: #ffb58a82 !important; 
+}
